@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "kaltic ring cinematic style, high detail, 8k",
+			prompt: "a frog wearing sunglases",
 		};
 
 		const response = await env.AI.run(
